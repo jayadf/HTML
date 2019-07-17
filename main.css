@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+header {
+    border-image: image("banner.jpg")
+}
+
+body {
+    background-image: url("blkban.jpg")
+}
+
+.indexbackground {
+    background-image: url ("")
+}
+
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+* {
+    color: white;
+}
+
+.textformat{
+    text-align: center;
+}
+
+.textunderline{
+    text-decoration-line: underline;
+}
+
+.parabox {
+    box-sizing: border-box;
+    width: 80%;
+    display: center;
+    margin: 5% auto;
+    border: ridge;
+    background-color: (rgba(255, 255, 255, 0.473));
+    padding: 15px;
+}
