@@ -4,13 +4,34 @@ header {
     border-image: image("banner.jpg")
 }
 
+.menudiv {
+    text-align: center;
+}
+
+
+.parabox {
+    background-color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    width: 80%;
+    display: center;
+    margin: 5% auto;
+    border: ridge;
+    padding: 15px;
+}
+
 body {
     background-image: url("blkban.jpg")
 }
 
 .indexbackground {
-    background-image: url ("")
+    background-image: url("whitemarble.jpg")
 }
+
+
+/*.backgroundcolor {
+    background-color: white;
+}
+*/
 
 
 * {
@@ -22,18 +43,22 @@ body {
 
 .textformat{
     text-align: center;
+
+}
+
+.textformatindex{
+    text-align: center;
+
 }
 
 .textunderline{
     text-decoration-line: underline;
 }
 
-.parabox {
-    box-sizing: border-box;
-    width: 80%;
-    display: center;
-    margin: 5% auto;
-    border: ridge;
-    background-color: (rgba(255, 255, 255, 0.473));
-    padding: 15px;
+
+.scrolliongeffect {
+    background-image: url(white-abstract-technology-and-engineering-motion-background-with-plexus-elements-and-depth-of-field-settings-3d-rendering_rbfj06p_x_thumbnail-full03.png);
+    background-position: center;
+    background-attachment: fixed;
+    
 }
